@@ -3,8 +3,8 @@ set logfile syslog
 set httpd port PORT-CHANGE-ME and
 use address IP-CHANGE-ME
 allow 0.0.0.0/0.0.0.0
-SSL ENABLE
-PEMFILE /var/certs/monit.pem
+#SSL ENABLE
+#PEMFILE /var/certs/monit.pem
    allow admin:CHANGEME
 
 set logfile syslog facility log_daemon
